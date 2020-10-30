@@ -1,0 +1,76 @@
+/*************************************tag selectors*************************************/
+
+  body {
+    background-color: #effffb;
+    color: #160f30;
+    font-family: cursive, sans-serif;
+    font-size: 120%;;
+  }
+
+  hr {
+    border-color: #cdc9c3;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 6px;
+    width: 5%;
+  }
+
+  h1 {
+       background: linear-gradient(90deg, #150485, #008891, #133b5c, #590995, #03c4a1, #590995, #150485, #008891);
+       background-size: 500px;
+       color: transparent;
+       -webkit-background-clip: text;
+       -moz-background-clip: text;
+       -ms-background-clip: text;
+       -o-background-clip: text;
+       background-clip: text;
+  }
+
+  h2 {
+      background: url(https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616__340.jpg);
+      background-size: 100px;
+      color: transparent;
+      -webkit-background-clip: text;
+      -moz-background-clip: text;
+      -ms-background-clip: text;
+      -o-background-clip: text;
+      background-clip: text;
+  }
+
+  a {
+    text-decoration: none;
+    background: linear-gradient(#effffb 0%, #effffb 90%, #30e3ca 90%, #30e3ca 100%);
+    color: #160f30;
+  }
+
+  a:hover {
+    text-decoration: none;
+    font-family: cursive, sans-serif;
+    background: linear-gradient(#effffb 0%, #effffb 50%, #30e3ca 51%, #30e3ca 100%);
+    color: #160f30;
+  }
+
+/*************************************class selectors*************************************/
+
+.nounderline {
+    text-decoration: none;
+    font-family: cursive, sans-serif;
+    background: none;
+    color: #160f30;
+  }
+
+.h1contact {
+  text-decoration: underline #008891;
+  background: linear-gradient(90deg, #150485, #008891, #133b5c, #590995, #03c4a1, #590995, #150485, #008891);
+  background-size: 500px;
+  color: transparent;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -ms-background-clip: text;
+  -o-background-clip: text;
+  background-clip: text;
+  }
+
+
+
+/*************************************id selectors*************************************/
